@@ -1,0 +1,14 @@
+# competition data (CC BY-NC 4.0, not redistributed) and files created by the notebook
+data/MAGFiLO_1.0_Kaggle_2026
+data/release/
+data/output/
+runs/
+
+# python / jupyter / os
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.pytest_cache/
+.ruff_cache/
+.DS_Store
