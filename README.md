@@ -29,7 +29,7 @@ The notebook only calls functions in `src/filament`; the method code is not hidd
 
 What the notebook does in step 5 (the default mode is `TRAIN = "release"`):
 
-1. Downloads the 10 trained models and the blended out-of-fold maps from the GitHub release `v1.0` into `data/release/` (490 MB).
+1. Downloads the 10 trained models and the blended out-of-fold maps from the GitHub release [`v1.0`](https://github.com/theainerd/filament_segmantation/releases/tag/v1.0) (asset `fsc26_release_v1.zip`, 514 MB) into `data/release/`.
 2. Rebuilds the 5 date-grouped folds and checks that they equal `data/splits.json`.
 3. Extracts candidate filaments from the out-of-fold maps and refits the rescorer (about 3 min on a CPU).
 4. Cross-validates the full pipeline: PQ 0.4519 (about 3 min on a CPU).
