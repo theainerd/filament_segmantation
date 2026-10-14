@@ -4,8 +4,6 @@ Our solution to the [Solar Filament Segmentation Challenge 2026](https://www.kag
 (IEEE BigData Cup 2026). The task: find every filament in a GONG H-alpha full-disk image (2048 x 2048 px) and give one mask per filament.
 The metric is panoptic quality (PQ); a prediction counts as correct when its IoU with an annotated filament is above 0.5.
 
-**Authors:** Shyam Sunder Kumar, Ayushi Nema (A4I)
-
 | Result | Value |
 |---|---|
 | Cross-validated PQ (5 date-grouped folds, 707 images, 1,154 annotator readings) | **0.4519** (95 % CI 0.4426 - 0.4611) |
