@@ -5,7 +5,7 @@
 | `splits.json` | yes | The 5 date-grouped cross-validation folds (image stem -> fold). The notebook re-creates it and checks that it is identical. |
 | `fsc26_final_submission.csv` | yes | The file we submitted to Kaggle (public leaderboard PQ 0.40, 1,102 masks). The notebook compares its own output with this file. |
 | `MAGFiLO_1.0_Kaggle_2026/` | no | The competition data. **You download it** (step 2 of the main README). |
-| `release/` | no | Created by the notebook: the 10 trained models (`weights/`) and the blended out-of-fold maps (`oof_blend/`), downloaded from the GitHub release `v1.0`. |
+| `release/` | no | Created by the notebook: the 10 trained models (`weights/`) and the blended out-of-fold maps (`oof_blend/`), downloaded from the GitHub release `v1.0` (asset `fsc26_release_v1.zip`, 514 MB). |
 | `output/` | no | Created by the notebook: `submission.csv`. |
 
 ## Competition data
